@@ -6,7 +6,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build:all": "nx run-many --target=build"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
